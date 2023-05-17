@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import SigninPage from "./pages/SigninPage";
 import RegisterPage from "./pages/RegisterPage";
 import ProfilePage from "./pages/ProfilePage";
+import EditUserProfile from "./pages/EditUserProfile";
 
 function Routers() {
   return (
@@ -13,6 +14,7 @@ function Routers() {
       <Route path="/signin" element={<SigninPage />} />
       <Route path="/register" element={<RegisterPage />} />
       <Route path="/profile" element={<ProfilePage />} />
+      <Route path="/profile/edit" element={<EditUserProfile />} />
     </Routes>
   );
 }

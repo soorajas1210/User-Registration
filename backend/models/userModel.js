@@ -16,27 +16,37 @@ const userSchema = new mongoose.Schema(
       required: true,
       unique: true,
     },
+    mobileno: {
+      type: String,
+      required: true,
+    },
     password: {
       type: String,
       required: true,
     },
-    image: {
-      type: String,
+    profileImage: {
+      public_id: { type: String, required: true },
+      url: { type: String, required: true },
     },
     country: {
       type: String,
+      required: true,
     },
     streetAddress: {
       type: String,
+      required: true,
     },
     city: {
       type: String,
+      required: true,
     },
     state: {
       type: String,
+      required: true,
     },
     pin: {
-      type: Number,
+      type: String,
+      required: true,
     },
   },
   {
