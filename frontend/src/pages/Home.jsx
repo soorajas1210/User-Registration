@@ -18,7 +18,7 @@ function Home() {
 
 
     return (
-        <div>
+        
             <Container>
                 <Row>
                     <div className="intro-text ">
@@ -46,7 +46,7 @@ function Home() {
                     </div>
                 </Row>
             </Container>
-        </div>
+     
     )
 }
 

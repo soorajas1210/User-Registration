@@ -64,9 +64,7 @@ function EditUserProfile() {
   };
 
   const edit = useSelector((state) => state.userEdit);
-
   const { smessage } = edit;
-
   useEffect(() => {
     if (smessage) {
       toast.success(" Successfully Updated", {
